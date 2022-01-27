@@ -52,6 +52,7 @@ table {
 
 
 
+
 /* ------- beginning of css -------*/
 
 /* -------  General Styles ------- */
@@ -79,7 +80,7 @@ p {
 }
 
 section {
-  padding: 5%;
+  padding: 20px;
  }
 
 section.alternate-background {
@@ -111,6 +112,11 @@ main img {
   margin: 10px;
   
 }
+.group .item ul {
+  list-style-type: disc;
+  margin-left: 6%;
+}
+
 
 .item-double {
   flex: 2;
@@ -233,11 +239,6 @@ footer p {
 
   /* ------------ Form -----------*/
 
-  section #stay {
-    /* issues with margin top of form */
-    
-
-  }
   
   form {
     display: flex;
@@ -279,20 +280,17 @@ footer p {
     flex-direction: row;
     align-items: center;
   }
-
-  .item input,
-  .item label,
-  .item button {
-    display: flex;
-    width: 100%;
-    
-  }
   .item {
     flex: 1;
-    margin: 15px;
+   margin: 15px;
   }
+  .group .item ul {
+    list-style-type: disc;
+  }
+
   .item-double {
     flex: 2;
+    margin: 15px;
   }
 
 
